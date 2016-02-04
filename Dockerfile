@@ -48,7 +48,8 @@ RUN apt-get install -qqy \
     mysql-client \
     git \
     vim \
-    supervisor
+    supervisor \
+    sendmail
 
 # tweak nginx config
 RUN sed -i -e "s/worker_processes  1/worker_processes 5/" /etc/nginx/nginx.conf && \
