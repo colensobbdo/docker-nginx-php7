@@ -106,7 +106,7 @@ ADD ./supervisord.conf /etc/supervisord.conf
 ADD ./start.sh /start.sh
 RUN chmod 755 /start.sh
 
-#RUN usermod -u 1234 www-data
+RUN usermod -u 1000 www-data
 RUN usermod -a -G users www-data
 
 RUN mkdir -p /var/www/html
