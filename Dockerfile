@@ -39,6 +39,8 @@ RUN add-apt-repository -y ppa:ondrej/php && apt-get update -qqy && \
     php7.0-xmlrpc \
     php7.0-opcache \
     php7.0-intl \
+    php7.0-xml \
+    php7.0-zip \
     php7.0-bz2
 
 # Install other software
