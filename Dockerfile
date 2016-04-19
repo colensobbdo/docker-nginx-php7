@@ -24,7 +24,7 @@ RUN nginx=stable && \
     apt-get install -qqy nginx
 
 # Install php7 packages
-RUN add-apt-repository -y ppa:ondrej/php-7.0 && apt-get update -qqy && \
+RUN add-apt-repository -y ppa:ondrej/php && apt-get update -qqy && \
     apt-get install -qqy \
     php7.0-fpm \
     php7.0-cli \
