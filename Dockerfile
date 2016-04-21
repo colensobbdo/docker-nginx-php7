@@ -36,6 +36,7 @@ RUN add-apt-repository -y ppa:ondrej/php && apt-get update -qqy && \
     php7.0-odbc \
     php7.0-pgsql \
     php7.0-mysql \
+    php7.0-sqlite3 \
     php7.0-xmlrpc \
     php7.0-opcache \
     php7.0-intl \
