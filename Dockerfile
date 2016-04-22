@@ -33,6 +33,7 @@ RUN add-apt-repository -y ppa:ondrej/php && apt-get update -qqy && \
     php7.0-json \
     php7.0-gd \
     php7.0-mcrypt \
+    php7.0-mbstring \
     php7.0-odbc \
     php7.0-pgsql \
     php7.0-mysql \
