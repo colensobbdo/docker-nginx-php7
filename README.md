@@ -1,3 +1,10 @@
+# YO
+
+This repo is no longer being actively maintained.
+
+[![Unmaintained](https://img.shields.io/badge/Status-Unmaintained-red.svg?style=flat-square)]()
+
+
 # docker-nginx-php7 #
 
 Based on https://github.com/ngineered/nginx-php-fpm.
